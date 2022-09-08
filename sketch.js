@@ -24,7 +24,7 @@ function setup() {
   world = engine.world;
 
   button = createImg();
-  button.position(400, 30);
+  button.position(250, 30);
   button.size(50, 50);
   button.mouseClicked(drop);
 
@@ -60,7 +60,7 @@ function draw() {
   right.show();
   left.show();
 
-  ellipse(fruit.position.x, fruit.position.y, 30, 30);
+  ellipse(fruit.position.x, fruit.position.y, 60, 30);
 
   Engine.update(engine);
 
