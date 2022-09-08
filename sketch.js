@@ -24,7 +24,7 @@ function setup() {
   world = engine.world;
 
   button = createImg();
-  button.position(220, 30);
+  button.position(400, 30);
   button.size(50, 50);
   button.mouseClicked(drop);
 
